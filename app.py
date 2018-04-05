@@ -68,8 +68,8 @@ def welcome():
         f"<a href='/api/v1.0/precipitation'>/api/v1.0/precipitation</a><br/>"
         f"<a href='/api/v1.0/stations'>/api/v1.0/stations</a><br/>"
         f"<a href='/api/v1.0/tobs'>/api/v1.0/tobs</a><br/>"
-        f"<a href='/api/v1.0/<start>'>/api/v1.0/<start></a><br/>"
-        f"<a href='/api/v1.0/<start><end>'>/api/v1.0/<start>/<end></a>"
+        f"<a href='/api/v1.0/<start>'>/api/v1.0/&lt;start &gt;</a><br/>"
+        f"<a href='/api/v1.0/<start>/<end>'>/api/v1.0/&lt;start &gt;/&lt;end &gt;</a>"
     )
 
 @app.route("/api/v1.0/precipitation")
